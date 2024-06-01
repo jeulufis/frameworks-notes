@@ -1,2 +1,2 @@
-# frameworks-notes
+# Frameworks Notes
 Repositorio para tomar nota de diferentes frameworks
