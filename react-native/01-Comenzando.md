@@ -1,13 +1,17 @@
 ## React Native
 
-Comenzar un proyecto
-
+Comenzar un proyecto:
 ```command
-npx create-expo-app@latest
+- npx create-expo-app@latest
 ```
 
-Iniciar servidor
-
+Comenzar un proyecto de manera minimalista:
 ```command
-npx expo start
+- npx create-expo-app StickerSmash --template blank
 ```
+
+Iniciar servidor:
+```command
+- npx expo start
+```
+
