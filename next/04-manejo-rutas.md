@@ -20,6 +20,17 @@ http://localhost:8081/blog/articulo-1
 http://localhost:8081/contact/juan
 
 ## RUTAS DINAMICAS
+`app/productos/[productId]/app.tsx`
+
+http://localhost:8081/productos/1
+
+Codigo:
+```jsx
+export default function ProductoDetails({params}) {
+  <h1>Product: {params.productId}</h1>
+}
+
+```
 
 ## RUTAS OCULTAS
 
