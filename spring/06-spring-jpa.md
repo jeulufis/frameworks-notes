@@ -52,17 +52,17 @@ public class Address {
       - entity
         - Address.java
       - `repository`
-        - `CustomerRepository.java`
+        - `AddressRepository.java`
        
 ```java
 // data.repository
-public interface CustomerRepository extends Repository<Customer, Long> {
+public interface AddressRepository extends Repository<Customer, Long> {
   // Customer -> entidad
   // Long -> Tipo de dato del id
 
-  List<Customer> findAll(); // java.utils.List
+  List<Address> findAll(); // java.utils.List
 
-  Optional<Customer> findById(); // java.utils.Optional
+  Optional<Address> findById(); // java.utils.Optional
 }
 ```
 
