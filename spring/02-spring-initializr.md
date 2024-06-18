@@ -8,4 +8,8 @@
 - Nombre del paquete : Es la combinación de grupo e ID de artefacto.
 - Embalaje : Se puede seleccionar este embalaje Jar o War
 - Generar: Cuando se hace clic en la opción generar, el proyecto se descarga en formato zip.
-- Explorar: Esto permite ver y realizar cambios en el proyecto generado. 
+- Explorar: Esto permite ver y realizar cambios en el proyecto generado.
+
+java.com.group.artifact.NameApplication.java
+
+artifact: nombre del archivo raiz
