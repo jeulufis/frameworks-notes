@@ -82,6 +82,9 @@ public interface AddressRepository extends JpaRepository<Customer, Long> {
 - `PagingAndSortingRepository` proporciona métodos para paginar y ordenar registros.
 - `JpaRepository` proporciona algunos métodos relacionados con JPA, como vaciar el contexto de persistencia y eliminar registros en un lote.
 
+## QUERY METHODS
+[Doc Spring Boot Query Methods](https://docs.spring.io/spring-data/jpa/reference/jpa/query-methods.html)
+
 ## TAREAS
 
 - [ ] Configurar application properties
