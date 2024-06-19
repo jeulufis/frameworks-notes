@@ -63,9 +63,24 @@ public interface AddressRepository extends Repository<Customer, Long> {
   List<Address> findAll(); // java.utils.List
 
   Optional<Address> findById(); // java.utils.Optional
+
+  Customer save(Customer customer);
+
+  voide deleteById();
 }
 ```
 
+## REPOSITORY RECOMENDADO
+
+```java
+public interface AddressRepository extends JpaRepository<Customer, Long> {
+
+}
+```
+
+- `CrudRepository` Proporciona principalmente funciones CRUD.
+- `PagingAndSortingRepository` proporciona métodos para paginar y ordenar registros.
+- `JpaRepository` proporciona algunos métodos relacionados con JPA, como vaciar el contexto de persistencia y eliminar registros en un lote.
 
 ## TAREAS
 
