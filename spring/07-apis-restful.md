@@ -9,3 +9,8 @@
 - Utiliza metodos como GET-POST-PUT-DELETE
 - Las respuestas con el json
 
+## CAPAS
+- Capa modelo
+- Capa servicio
+- Capa controlador
+
