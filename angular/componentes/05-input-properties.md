@@ -13,7 +13,9 @@ export class CustomSlider {
 
 Esto le permite vincularse a la propiedad en una plantilla:
 
+```ts
 <custom-slider [value]="50" />
+```
 
 ## Entradas requeridas
 
